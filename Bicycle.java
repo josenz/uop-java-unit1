@@ -1,4 +1,5 @@
-    public class Bicycle {
+     // SuperClass
+     public class Bicycle {
 	
         // the Bicycle class has three fields
 	public int cadence;
