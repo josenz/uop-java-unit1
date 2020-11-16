@@ -1,3 +1,4 @@
+    // SubClass
     public class MountainBike extends Bicycle {
 	
 	// the MountainBike subclass has one field
@@ -13,6 +14,14 @@
 	// the MountainBike subclass has one method
 	public void setHeight(int newValue) {
 	    seatHeight = newValue;
+	}
+
+	public void printMessage() {
+	    System.out.println("This is a message!");
+	}
+
+	public int getHeight() {
+	    return seatHeight;
 	}
 
     }
